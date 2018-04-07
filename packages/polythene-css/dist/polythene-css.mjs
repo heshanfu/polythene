@@ -18,6 +18,8 @@ import * as polytheneCssIcon from 'polythene-css-icon';
 export { polytheneCssIcon as IconCSS };
 import * as polytheneCssIconButton from 'polythene-css-icon-button';
 export { polytheneCssIconButton as IconButtonCSS };
+import * as polytheneCssIconLabelButton from 'polythene-css-icon-label-button';
+export { polytheneCssIconLabelButton as IconLabelButtonCSS };
 import * as polytheneCssIosSpinner from 'polythene-css-ios-spinner';
 export { polytheneCssIosSpinner as IOSSpinnerCSS };
 import * as polytheneCssList from 'polythene-css-list';

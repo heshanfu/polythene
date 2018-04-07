@@ -182,6 +182,7 @@ html {
   flex-wrap: wrap;
 }
 
+.multiple .pe-control.pe-icon-label-button,
 .multiple .pe-control.pe-checkbox-control,
 .multiple .pe-control.pe-radio-control,
 .multiple .pe-control.pe-switch-control,
@@ -189,6 +190,7 @@ html {
   margin: 0 30px 20px 0;
 }
 
+.pe-rtl .multiple .pe-control.pe-icon-label-button,
 .pe-rtl .multiple .pe-control.pe-checkbox-control,
 .pe-rtl .multiple .pe-control.pe-radio-control,
 .pe-rtl .multiple .pe-control.pe-switch-control,

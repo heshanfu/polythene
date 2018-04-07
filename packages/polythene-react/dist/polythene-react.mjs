@@ -8,6 +8,7 @@ export * from 'polythene-react-drawer';
 export * from 'polythene-react-fab';
 export * from 'polythene-react-icon';
 export * from 'polythene-react-icon-button';
+export * from 'polythene-react-icon-label-button';
 export * from 'polythene-react-ios-spinner';
 export * from 'polythene-react-list';
 export * from 'polythene-react-list-tile';

@@ -8,6 +8,7 @@ export * from "polythene-mithril-drawer";
 export * from "polythene-mithril-fab";
 export * from "polythene-mithril-icon";
 export * from "polythene-mithril-icon-button";
+export * from "polythene-mithril-icon-label-button";
 export * from "polythene-mithril-ios-spinner";
 export * from "polythene-mithril-list";
 export * from "polythene-mithril-list-tile";

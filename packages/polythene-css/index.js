@@ -8,6 +8,7 @@ import * as DrawerCSS                        from "polythene-css-drawer";       
 import * as FABCSS                           from "polythene-css-fab";                              export { FABCSS };
 import * as IconCSS                          from "polythene-css-icon";                             export { IconCSS };
 import * as IconButtonCSS                    from "polythene-css-icon-button";                      export { IconButtonCSS };
+import * as IconLabelButtonCSS               from "polythene-css-icon-label-button";                export { IconLabelButtonCSS };
 import * as IOSSpinnerCSS                    from "polythene-css-ios-spinner";                      export { IOSSpinnerCSS };
 import * as ListCSS                          from "polythene-css-list";                             export { ListCSS };
 import * as ListTileCSS                      from "polythene-css-list-tile";                        export { ListTileCSS };

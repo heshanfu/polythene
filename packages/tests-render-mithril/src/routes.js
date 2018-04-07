@@ -7,6 +7,7 @@ import { mithrilTests as drawerTests } from "polythene-test-drawer";
 import { mithrilTests as fabTests } from "polythene-test-fab";
 import { mithrilTests as iconTests } from "polythene-test-icon";
 import { mithrilTests as iconButtonTests } from "polythene-test-icon-button";
+import { mithrilTests as iconLabelButtonTests } from "polythene-test-icon-label-button";
 import { mithrilTests as layoutStylesTests } from "polythene-test-layout-styles";
 import { mithrilTests as listTests } from "polythene-test-list";
 import { mithrilTests as listTileTests } from "polythene-test-list-tile";
@@ -86,6 +87,12 @@ export default [
     name: "Icon Button",
     tests: iconButtonTests,
     doc: "https://github.com/ArthurClemens/polythene/blob/master/docs/components/mithril/icon-button.md"
+  },
+  {
+    path: "/icon-label-button",
+    name: "Icon Label Button",
+    tests: iconLabelButtonTests,
+    doc: "https://github.com/ArthurClemens/polythene/blob/master/docs/components/mithril/icon-label-button.md"
   },
   {
     path: "/list",

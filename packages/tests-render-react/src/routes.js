@@ -7,6 +7,7 @@ import { reactTests as drawerTests } from "polythene-test-drawer";
 import { reactTests as fabTests } from "polythene-test-fab";
 import { reactTests as iconTests } from "polythene-test-icon";
 import { reactTests as iconButtonTests } from "polythene-test-icon-button";
+import { reactTests as iconLabelButtonTests } from "polythene-test-icon-label-button";
 import { reactTests as layoutStylesTests } from "polythene-test-layout-styles";
 import { reactTests as listTests } from "polythene-test-list";
 import { reactTests as listTileTests } from "polythene-test-list-tile";
@@ -86,6 +87,12 @@ export default [
     name: "Icon Button",
     tests: iconButtonTests,
     doc: "https://github.com/ArthurClemens/polythene/blob/master/docs/components/react/icon-button.md"
+  },
+  {
+    path: "/icon-label-button",
+    name: "Icon Label Button",
+    tests: iconLabelButtonTests,
+    doc: "https://github.com/ArthurClemens/polythene/blob/master/docs/components/react/icon-label-button.md"
   },
   {
     path: "/list",

@@ -1,0 +1,26 @@
+{
+  "name": "polythene-test-icon-label-button",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "../../node_modules/jest/bin/jest.js src/**",
+    "test:watch": "yarn run test -- --watch --no-watchman"
+  },
+  "dependencies": {
+    "polythene-css": "^1.0.0",
+    "polythene-mithril": "^1.0.0",
+    "polythene-react": "^1.0.0"
+  },
+  "devDependencies": {
+    "mithril": "1.1.6",
+    "react": "^16.2.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "../../scripts/jest-shim.js"
+    ]
+  },
+  "author": "Arthur Clemens <arthurclemens@gmail.com> (http://arthurclemens.com)",
+  "license": "MIT"
+}
