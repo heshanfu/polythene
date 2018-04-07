@@ -1,4 +1,4 @@
-import { filterSupportedAttributes, deprecation } from "polythene-core";
+import { filterSupportedAttributes, depreciation } from "polythene-core";
 import classes from "polythene-css-classes/list";
 
 export const getElement = vnode =>
@@ -16,10 +16,10 @@ const paddingClass = (attr = "both") =>
 
 export const onMount = ({ attrs }) => {
   if (attrs.borders) {
-    deprecation("List", "borders", "border");
+    depreciation("List", "borders", "border");
   }
   if (attrs.indentedBorders) {
-    deprecation("List", "indentedBorders", "indentedBorder");
+    depreciation("List", "indentedBorders", "indentedBorder");
   }
 };
 

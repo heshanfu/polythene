@@ -1,4 +1,4 @@
-import { filterSupportedAttributes, deprecation } from "polythene-core";
+import { filterSupportedAttributes, depreciation } from "polythene-core";
 import classes from "polythene-css-classes/card";
 import buttonClasses from "polythene-css-classes/button";
 
@@ -10,7 +10,7 @@ const actionLayoutClasses = {
 
 export const onMount = ({ attrs }) => {
   if (attrs.bordered) {
-    deprecation("Card", "bordered", "border");
+    depreciation("Card", "bordered", "border");
   }
 };
 

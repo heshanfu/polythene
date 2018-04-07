@@ -1,4 +1,4 @@
-import { filterSupportedAttributes, isClient, deprecation } from "polythene-core";
+import { filterSupportedAttributes, isClient, depreciation } from "polythene-core";
 import classes from "polythene-css-classes/button";
 
 export const getElement = vnode =>
@@ -22,7 +22,7 @@ export const onMount = vnode => {
   const state = vnode.state;
   const attrs = vnode.attrs;
   if (attrs.borders) {
-    deprecation("Button", "borders", "border");
+    depreciation("Button", "borders", "border");
   }
   if (!vnode.dom) {
     return;
